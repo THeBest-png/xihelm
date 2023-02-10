@@ -1,0 +1,8 @@
+# Define the goal
+float64 goal
+---
+# Define the result
+float32 stop_position
+---
+# Define a feedback message
+string my_feedback

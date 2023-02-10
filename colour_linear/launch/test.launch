@@ -1,0 +1,13 @@
+<launch>
+
+    <arg name="threshhold" default="10"/>
+
+
+    <param name="threshhold" value="$(arg threshhold)"></param>
+
+    <node pkg="colour_linear" name="action_server" type="action_server.py" output="screen"/>
+        <param name="threshhold" value="$(arg threshhold)"></param>
+
+
+
+</launch>
